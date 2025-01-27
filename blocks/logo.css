@@ -1,20 +1,24 @@
 .logo {
   margin: 34px auto 0;
   max-width: 254.84px;
-  height: 68.94px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
 }
+
+.logo__image {
+  width: 32px;
+  height: 32px;
+}
+
 .logo__title {
   text-align: center;
   margin: 0;
-  height: 100px;
-  width: 254.84px;
-  height: 14.94px;
-  top: 54px;
-  gap: 0px;
-  opacity: 0px;
-  margin-top: 15px;
   font-weight: bold;
   font-size: 20px;
+  color: #fff;
 }
 
 @media screen and (max-width: 768px) {
