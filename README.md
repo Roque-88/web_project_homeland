@@ -21,4 +21,4 @@ Media Queries: Reglas en CSS que permiten modificar el diseño según el ancho d
 
 ---
 
-Para acceder a la página, abre el siguiente enlace:
+Para acceder a la página, abre el siguiente enlace: https://roque-88.github.io/web_project_homeland/
