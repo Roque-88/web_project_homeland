@@ -1,53 +1,45 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
-    <title>Web Depatria a patria</title>
-    <link rel="shortcut icon" href="./favicon.ico" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="Roque" />
-    <meta name="keywords" content="Historia, crónica, Tripleten, Proyecto 5" />
-    <meta
-      name="description"
-      content="Proyecto numero 5 de Tripleten, Se orienta en el Desarrollo Web Responsivo"
-    />
+    <meta name="description" content="Patria" />
+    <meta name="author" content="Jesús Mandujano Cruz" />
+    <meta name="keywords" content="patria" />
     <link rel="stylesheet" href="./pages/index.css" />
+    <link rel="shortcut icon" href="./favicon.ico" />
+    <title>De patria a patria</title>
   </head>
   <body>
     <div class="page">
-      <div class="logo">
+      <header class="header">
         <img
           src="./images/logo.svg"
-          alt="Logo de Tripleten"
-          class="logo__image"
-        />
-        <p class="logo__title">tripleten art gallery</p>
-      </div>
-      <header class="header">
-        <h1 class="header__title">De patria a patria</h1>
-        <p class="header__subtitle">
-          Un viaje épico de Kentucky a Burundi pasando por Gales y Ucrania
-        </p>
-        <img
-          src="./images/image.jpg"
-          alt="Imagen del Paisaje"
-          class="header__image"
+          alt="Logotipo de la galeria de arte"
+          class="header__icon"
         />
       </header>
+      <section class="cover">
+        <h1 class="cover__title">De patria a patria</h1>
+        <p class="cover__subtitle">
+          Un viaje épico de Kentucky a Burundi pasando por Gales y Ucrania
+        </p>
+        <div class="cover__image"></div>
+      </section>
       <main class="content">
         <section class="intro">
           <h2 class="intro__title">
             Conoce un poco mejor los lugares de los que proceden tus colegas en
             línea
           </h2>
-          <p class="intro__references-text">
+          <blockquote class="intro__quote">
             Todo ser humano es un artista, un ser de la libertad, llamado a
             participar en la transformación y reforma de las condiciones, el
             pensamiento y las estructuras que conforman e influyen en nuestras
             vidas.
-          </p>
-          <p class="intro__references-person">— Joseph Beuys</p>
-          <p class="intro__text-description">
+          </blockquote>
+          <cite class="intro__quote-cite">— Joseph Beuys</cite>
+          <p class="intro__description">
             La ciudad de TripleTen ha reunido a profesionales de diferentes
             rincones del mundo. Hoy, la Galería de Arte TripleTen se enorgullece
             de presentar historias y fotografías de algunas de las personas que
@@ -59,9 +51,238 @@
             nos alegra que seas nuestro vecino.
           </p>
         </section>
+        <section class="photo-grid">
+          <h2 class="photo-grid__title">-</h2>
+          <img
+            src="./images/grid_gallery-lake.png"
+            alt="Ciudad cerca del agua en un día nublado."
+            class="photo-grid__item"
+          />
+          <img
+            src="./images/grid_gallery-sea.png"
+            alt="Ciudad de Cricieth, Gales."
+            class="photo-grid__item"
+          />
+          <img
+            src="./images/grid_gallery-church.png"
+            alt="Estructura de una iglesia en el atardecer."
+            class="photo-grid__item"
+          />
+          <img
+            src="./images/grid_gallery-bridge.png"
+            alt="Vista de lejos de una ciudad que lo divide un rio y lo conecta un puente."
+            class="photo-grid__item"
+          />
+          <img
+            src="./images/grid_gallery-field.png"
+            alt="Campo abierto rodeado de arboles en una planicie"
+            class="photo-grid__item"
+          />
+          <img
+            src="./images/grid_gallery-parking.png"
+            alt="Letretos de estacionamiento junto con arbustos."
+            class="photo-grid__item"
+          />
+          <img
+            src="./images/grid_gallery-house.png"
+            alt="Pequeño hogar en forma priamide circular."
+            class="photo-grid__item"
+          />
+          <img
+            src="./images/grid_gallery-village.png"
+            alt="Pequeña aldea entre las montañas."
+            class="photo-grid__item"
+          />
+        </section>
+        <section class="places">
+          <div class="place">
+            <h2 class="place__title">Cricieth, Gales</h2>
+            <div class="place__website">
+              <h3 class="place__url-heading">Artistas</h3>
+              <p class="place__artist">Steffan Warren, editor jefe</p>
+              <p class="place__artist">
+                Kseniya Glagoleva, gerente de proyectos
+              </p>
+            </div>
+            <img
+              src="./images/grid_gallery-sea.png"
+              alt="Ciudad de Cricieth, Gales."
+              class="place__image"
+            />
+            <div class="place__descriptions">
+              <p class="place__description">
+                Las ruinas medievales del castillo de Cricieth dominan la ciudad
+                desde una roca que extiende sobre el mar. Se cree que fue
+                construido por Llewelyn el Grande en el S. XIII. 800 años
+                después, la autodenominada Perla de Gales en las costas de
+                Snowdonia, se ha convertido en un popular destino turístico
+                durante los meses de verano.
+              </p>
+              <p class="place__description">
+                A pocos pasos de camino al castillo, puedes disfrutar de los
+                mejores helados del mundo en Cadwalader's, cuyo ingrediente
+                secreto se rumorea que son algas marinas de la localidad. Otra
+                cosa por la que es famosa Cricieth es por haber ganado el premio
+                *Gales en flor* durante cinco años seguidos por sus
+                espectaculares muestras florales alrededor de la ciudad. También
+                vio nacer a David Lloyd George, el único galés que ha sido
+                Primer Ministro del Reino Unido.
+              </p>
+            </div>
+            <a
+              href="https://theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
+              class="place__button"
+              >Compra esta obra como NFT</a
+            >
+          </div>
+          <div class="place">
+            <h2 class="place__title">Berea, EE.UU.</h2>
+            <div class="place__website">
+              <h3 class="place__url-heading">Artista</h3>
+              <p class="place__artist">Travis Turner, autor y editor</p>
+            </div>
+            <img
+              src="./images/grid_gallery-craftsmanship.png"
+              alt="Zona residencial de Berea, Kentucky."
+              class="place__image"
+            />
+            <div class="place__descriptions">
+              <p class="place__description">
+                Berea es una pequeña ciudad ubicada en la parte central de
+                Kentucky. La ciudad está rodeada por hermosos bosques y campos.
+                Es conocida como la capital de la artesanía del estado, y sus
+                visitantes hallarán infinitas posibilidades para ir de compras:
+                tiendas de joyas, velas y artículos de madera artesanales;
+                galerías, talleres de vidrio y más. La ciudad celebra un
+                festival anual que rinde tributo al "spoonbread", un platillo
+                local hecho de pan de maíz y que se sirve con una cuchara de
+                madera.
+              </p>
+              <p class="place__description">
+                Aunque, probablemente es mejor conocida por su universidad. El
+                Berea College fue fundado en 1855 y fue la primera universidad
+                sureña integrada racialmente, así como la primera en ser
+                coeducacional. Algo que en cierta manera la hace única, es que
+                no cobra colegiatura: cada estudiante recibe una beca del 100%.
+              </p>
+            </div>
+            <a
+              href="https://theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
+              class="place__button"
+              >Compra esta obra como NFT</a
+            >
+          </div>
+          <div class="place">
+            <h2 class="place__title">Muramvya, Burundi</h2>
+            <div class="place__website">
+              <h3 class="place__url-heading">Artista</h3>
+              <p class="place__artist">Grevisse Kenguruka, editor técnico</p>
+            </div>
+            <img
+              src="./images/grid_gallery-monument.png"
+              alt="Monumentro representativo de Muramvya, Burundi."
+              class="place__image"
+            />
+            <div class="place__descriptions">
+              <p class="place__description">
+                Muramvya es una de las 18 provincias de Burundi. Durante la
+                época del reino, Muramvya fue su capital; y en 2017, gracias a
+                su paisaje cultural y natural, se añadió a la Lista provisional
+                de patrimonio mundial de la UNESCO. Se encuentra ubicada en el
+                centro de Burundi, entre las capitales política y económica del
+                país.
+              </p>
+              <p class="place__description">
+                Su clima es más bien frío durante la noche, pero durante el día,
+                podrías pensar que estás en el paraíso. A sus 2,665 metros
+                (8,743 ft) sobre el nivel del mar, el Monte Teza es uno de los
+                lugares más fríos de la provincia. Pero es justo esa brisa
+                fresca la que da pie a una de las más grandes plantaciones de té
+                y café del país, y que representa la mayoría de las
+                exportaciones de Burundi.
+              </p>
+              <p class="place__description">
+                El Parque nacional de Kibira, una de las mayores reservas de
+                vida silvestre para los simios, ocupa parte de cuatro
+                provincias, incluyendo Muramvya. Este parque nacional se
+                encuentra en las cúspides de las hermosas montañas de la
+                Divisoria Congo-Nilo, cuyas alturas oscilan entre 1,550 y 2,660
+                metros. Está lleno de hermosa vegetación, y es una fuente para
+                los diversos ríos y arroyos que proporcionan agua alrededor del
+                país.
+              </p>
+            </div>
+            <a
+              href="https://theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
+              class="place__button"
+              >Compra esta obra como NFT</a
+            >
+          </div>
+          <div class="place">
+            <h2 class="place__title">Villa Alemana, Chile</h2>
+            <div class="place__website">
+              <h3 class="place__url-heading">Artista</h3>
+              <p class="place__artist">
+                Roque Bascuñan, estudiante de TripleTen
+              </p>
+            </div>
+            <img
+              src="./images/teatro-pompeya_rtzzb6.webp"
+              alt="Estructura en forma de dos arcos en la entrada de Villagrán, Guanajuato."
+              class="place__image"
+            />
+            <div class="place__descriptions">
+              <p class="place__description">
+                Villa Alemana es una comuna y ciudad de la zona central de Chile
+                ubicada en la provincia de Marga Marga, Región de Valparaíso.
+                Junto con las comunas de Valparaíso, Viña del Mar, Quilpué y
+                Concón, integra el área metropolitana del Gran Valparaíso. Fue
+                creada el 11 de julio de 1933, y es conocida como la Ciudad de
+                la Eterna Juventud o la Ciudad de los Molinos, por la gran
+                cantidad de casas quintas que necesitaban sacar agua de esta
+                forma. Se encuentra hermanada con la ciudad palestina de Belén,
+                acuerdo suscrito desde el año 2006 hasta la fecha
+              </p>
+              <p class="place__description">
+                El nombre de Villa Alemana es producto de una votación efectuada
+                por los primeros vecinos de la zona. Se encontraban alemanes,
+                italianos, españoles, suizos y yugoslavos. Siendo el vecino Don
+                Buenaventura Joglar Amandi, quien poseía la mayor cantidad de
+                tierra y había loteado sus propiedades para formar una villa de
+                vecinos que impulsara el desarrollo de la zona. La votación
+                favoreció el nombre de Villa Alemana que se impuso por un voto
+                al de Villa Italiana y en tercer lugar resultó la opción Villa
+                España. La otra versión de la historia dice que don Buenaventura
+                Joglar Amandi decidió poner un nombre propio al lugar y ese
+                nombre sería el de la colonia que comprara más tierras o
+                parcelas y estos fueron los alemanes, y así el sector (ya que
+                aún no era comuna) pasó a llamarse Villa Alemana. Esta es la
+                versión más respaldada en los libros. La diferencia en la
+                cantidad de parcelas compradas por alemanes e italianos fue
+                mínima, por eso hasta el día de hoy existe una gran influencia
+                italiana. Dentro de las familias más preocupadas por el
+                desarrollo del local se encuentra la familia Composto.
+              </p>
+              <p class="place__description">
+                El teatro Pompeya,De arquitectura ecléctica, tiene rasgos
+                modernos, art déco y neoclásicos,​ en los años 1940 y 1950 se
+                presentaron en el teatro la Orquesta Sinfónica de Chile, el
+                poeta Pablo Neruda e importantes compañías de teatro.En el año
+                1991 el teatro fue arrendado a la familia Composto.S​ por parte
+                la Municipalidad de Villa Alemana, que programaba en sus
+                dependencias cine, danza y talleres gratuitos
+              </p>
+            </div>
+            <a
+              href="https://theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
+              class="place__button"
+              >Compra esta obra como NFT</a
+            >
+          </div>
+        </section>
       </main>
       <footer class="footer">
-        <p class="footer__copyright">&copy; 2025 Roque bascuñan</p>
+        <p class="footer__copyright">&copy; 2025. Roque Bascuñan</p>
       </footer>
     </div>
   </body>

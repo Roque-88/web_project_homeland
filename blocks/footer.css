@@ -1,30 +1,12 @@
-.footer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.footer{
+  margin: 0 auto;
+  padding: 0 0 24px;
 }
 
-.footer__copyright {
-  max-width: 194px;
-  min-height: 16px;
+.footer__copyright{
+  margin: 0;
+  display: flex;
+  justify-content: center;
   font-size: 14px;
   line-height: 16px;
-  margin-top: 92px;
-  margin-bottom: 24px;
-  text-align: center;
-}
-
-@media screen and (max-width: 768px) {
-  .footer__copyright {
-    margin-top: 88px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .footer__copyright {
-    min-width: 194px;
-    min-height: 14px;
-    margin: 64px auto 24px;
-    line-height: 14px;
-  }
 }

@@ -1,25 +1,24 @@
-# Tripleten web_project_homeland
+# Web Project Homeland
 
-En este proyecto nos enfocamos en profundizar en el uso de **HTML** y **CSS**. Es un proyecto básico diseñado en **Figma**, que me ayudó a comprender cómo utilizar esta herramienta para el diseño web. A través del proyecto, aprendí a obtener información clave como:
+**Descripción:**  
+Este proyecto consiste en una página web que representa una galería de arte, donde se muestran fotografías junto con sus relatos. La página está diseñada para adaptarse de forma automática a distintos tamaños de pantalla, asegurando una experiencia de usuario cómoda y funcional tanto en celulares como en tablets y computadores.
 
-- Tamaños y estilos de las fuentes.
-- Ajustes de colores y gradientes.
-- Extracción de imágenes y otros recursos gráficos.
+---
 
-Además, se aplicó la metodología **BEM** para garantizar un código ordenado, limpio y semántico, lo que facilita el mantenimiento y escalabilidad del proyecto.
+## 🛠️ Tecnologías y técnicas utilizadas
 
-Otro aspecto importante del proyecto fue la práctica de habilidades en **Git Bash**, lo que incluyó aprender a:
+HTML5 semántico: Uso de etiquetas que aportan significado y mejoran la organización del contenido.
 
-- Navegar rápidamente entre directorios en la terminal.
-- Gestionar repositorios de Git de forma eficiente.
-- Ejecutar comandos básicos y avanzados para un flujo de trabajo ágil.
+CSS3: Aplicación de estilos modernos para lograr una apariencia visual atractiva.
 
-El diseño es completamente adaptativo, utilizando **CSS Grid** para estructurar la página y garantizar que se vea bien en diferentes dispositivos y resoluciones. Este proyecto me ayudó a mejorar mis habilidades no solo en diseño y desarrollo web, sino también en el manejo de herramientas clave como **Figma**, **Git**, y la terminal.
+Metodología BEM: Sistema de nombres estructurado para las clases CSS, que facilita la lectura y el mantenimiento del código.
 
-**Recursos utilizados:**
+Flexbox y Grid: Herramientas de diseño que permiten distribuir y alinear los elementos de forma flexible y ordenada.
 
-- **Figma**: Para la creación del diseño inicial.
-- **Git Bash**: Para la gestión del control de versiones y el trabajo con la terminal.
-- **Visual Studio Code**: Como editor de código.
+Diseño responsivo: El diseño se ajusta automáticamente a distintos tamaños de pantalla, como móviles, tablets y computadoras.
 
-Este proyecto ha sido una excelente oportunidad para consolidar conocimientos esenciales y desarrollar buenas prácticas en el desarrollo web.
+Media Queries: Reglas en CSS que permiten modificar el diseño según el ancho del dispositivo para garantizar una buena visualización en todo momento.
+
+---
+
+Para acceder a la página, abre el siguiente enlace:
